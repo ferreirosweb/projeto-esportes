@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body  {
+  background-color: wheat;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+div.container {
+  background-color: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  text-align: justify;
+  text-indent: 25px;
+  color: #333;
+  line-height: 1.6;
+}
+
+figure.foto {
+  width: 50%;
+  margin:20px auto;
+  padding: 15px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 12px;
+}
+
+figure.foto img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+p.definicao {
+  display: block;
+   position: absolute ;
+   left: 50px;
+   top: 50px;
+   padding: 10px;
+}
+
+p.definicao:hover {
+   color: #606060;
+   background-color: bisque;
+}

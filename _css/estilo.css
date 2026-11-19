@@ -38,16 +38,21 @@ figure.foto img {
   margin: 0 auto;
 }
 
-
-p.definicao {
-  display: block;
-   position: absolute ;
-   left: 50px;
-   top: 50px;
-   padding: 10px;
+aside{
+  display: inline-block;
+  width: 250px;
 }
 
-p.definicao:hover {
-   color: #606060;
-   background-color: bisque;
+aside.definicao {
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    padding: 10px;
+    ;
+}
+
+aside.definicao:hover {
+    color: #606060;
+    background-color: bisque;
 }

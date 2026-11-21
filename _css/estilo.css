@@ -11,6 +11,22 @@ body  {
     flex-direction: column;
 }
 
+    #botao-menu{
+     width: 250px;
+     position: absolute;
+     right: 50px;
+     background-color: antiquewhite;
+     transition: 0,3s;
+    }
+
+    #botao-menu:hover{
+      background-color: wheat;
+        color: black;
+    transform: scale(1.05);
+    cursor: pointer;
+    
+    }
+
   nav#menu ol {
     display: block;
     position: absolute;
